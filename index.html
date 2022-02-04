@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="RatNSK animation">
+    <meta name="keywords" content="RatNSK">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="icons/7348-200.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RatNSK</title>
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+    <div class="settings-button">
+    </div>
+
+    <div class="settings-modal">
+        <div class="settings-input-item ">
+            <div class="settings-input-text">count element:</div>
+            <input class="input-numb" value="250" type="number" name="countElement" id="countElement">
+        </div>
+        <hr>
+        <div class="settings-input-item ">
+            <div class="settings-input-text">vertical speed:</div>
+            <input class="input-numb" value="4" type="number" name="vertical_speed" id="vertical_speed">
+        </div>
+        <hr>
+        <div class="settings-input-item ">
+            <div class="settings-input-text">horizontal speed:</div>
+            <input class="input-numb" value="0" type="number" name="horizontal_speed" id="horizontal_speed">
+        </div>
+        <hr>
+        <div class="settings-input-item ">
+            <div class="settings-input-text">height element:</div>
+            <input class="input-numb" value="1" type="number" name="height" id="height">
+        </div>
+        <hr>
+        <div class="settings-input-item ">
+            <div class="settings-input-text">width element:</div>
+            <input class="input-numb" value="1" type="number" name="width" id="width">
+        </div>
+        <hr>
+        <label for="rgbMove" class="settings-input-item ">
+            <div class="settings-input-text">RGB move:</div>
+            <input class="input-numb" type="checkbox" name="rgbMove" id="rgbMove">
+        </label>
+        <hr>
+        <label for="gravity" class="settings-input-item ">
+            <div class="settings-input-text">gravity:</div>
+            <input class="input-numb" type="checkbox" name="gravity" id="gravity">
+        </label>
+        <hr>
+        <label for="closeSpace" class="settings-input-item ">
+            <div class="settings-input-text">close space:</div>
+            <input class="input-numb" type="checkbox" name="closeSpace" id="closeSpace">
+        </label>
+        <hr>
+        <div class="settings-button-item">
+            <button class="button-save">
+                save
+            </button>
+        </div>
+        <hr>
+        <div class="links">
+            <a href="https://github.com/dmitryratnsk" target="_blank">
+                <div class="link-item" id="vk-link">
+
+                </div>
+            </a>
+            <a href="https://t.me/RatNSK" target="_blank">
+                <div class="link-item" id="tg-link">
+                    
+                </div>
+            </a>
+            <a href="mailto:rrattnsk@gmail.com" target="_blank">
+                <div class="link-item" id="gmail-link">
+                    
+                </div>
+            </a>
+        </div>
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

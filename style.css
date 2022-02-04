@@ -1,0 +1,112 @@
+* { 
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: none; 
+    font-family: 'Courier New', Courier, monospace;
+    overflow: hidden;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.settings-button {
+    position: absolute;
+    right: 20px;
+    top: 30px;
+    background-image: url(icons/Windows_Settings_app_icon.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: all ease .4s;
+    background-color: white;
+}
+
+.settings-modal { 
+    z-index: 1;
+    /* border: 1px solid red; */
+    position: absolute;
+    right: 70px;
+    top: 20px;
+    width: 200px;
+    background-color: white;
+    border: 1px solid black;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+    border-radius: 5px;
+    transform: translate(0, -700px);
+    transition: .2s;
+}
+
+._active-visibile{
+    transform: translate(0, 0);
+    display: block;
+}
+
+.settings-input-item {
+    margin: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.input-numb {
+    width: 42px;
+    border: 1px solid silver;
+    padding: 2px;
+    border-radius: 2px;
+}
+
+.settings-button-item {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin: 20px 20px 20px 0;
+}
+
+.button-save {
+    padding: 5px 25px;
+    background-color: hsl(120, 80%, 50%);
+    border: unset;
+    border-bottom: 3px solid hsl(120, 80%, 30%);
+    border-right: 3px solid hsl(120, 80%, 30%);
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.button-save:active {
+    border: unset;
+    margin-top: 2px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.link-item {
+    width: 30px;
+    height: 30px;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#vk-link {
+    background-image: url(icons/GitHub-Mark-120px-plus.png);
+}
+#tg-link {
+    background-image: url(icons/telegram.png);
+}
+#gmail-link {
+    background-image: url(icons/Gmail_29991.png);
+}
