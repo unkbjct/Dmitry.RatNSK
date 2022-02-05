@@ -1,3 +1,7 @@
+<?php 
+    echo 123;
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
